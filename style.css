@@ -1,0 +1,95 @@
+body {
+  box-sizing: border-box;
+}
+
+/* Nav row styling */
+
+header {
+  flex-flow: row nowrap;
+  width: 960px;
+  height: 80px;
+  margin: 1.2rem auto;
+  display: flex;
+  background-color: goldenrod;
+  position: relative;
+  top: -0.5rem;
+  padding: 1rem 0rem;
+}
+
+nav {
+  width: 400px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(88, 84, 64, 0.672);
+}
+
+/* All containers styling*/
+
+main {
+  margin: 0 auto;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 960px;
+  height: auto;
+  margin: 30px auto;
+}
+
+/* Article Section */
+article {
+  margin-left: 2rem;
+  height: auto;
+}
+/* 400px */
+
+h2 {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-bottom: 7px;
+}
+
+p {
+  overflow-y: scroll;
+  height: 330px;
+  font-style: red-serifs;
+  line-height: 1.2rem;
+}
+
+button {
+  border: none;
+  background-color: navajowhite;
+  border: 1px solid black;
+  color: blue;
+  margin-top: 7px;
+  padding: 10px 20px;
+  transition: 350ms;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: khaki;
+  color: lightblue;
+}
+
+/* Footer  */
+
+footer {
+  margin: 1.2rem auto;
+
+  height: 100px;
+  background-color: peru;
+  width: 960px;
+}
+p {
+  color: blue;
+}
